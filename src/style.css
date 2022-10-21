@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+main {
+  background-color: hsl(216deg, 12%, 8%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.content {
+  background-color: hsl(213deg, 19%, 18%);
+  max-width: 400px;
+  height: 400px;
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  padding: 30px;
+  font-size: 15px;
+  border-radius: 30px;
+}
+
+.top {
+  height: 70px;
+  padding-top: 10px;
+}
+.top .star-wrapper {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px 13px;
+  border-radius: 50%;
+}
+
+.text {
+  height: 130px;
+  color: hsl(217deg, 12%, 63%);
+}
+.text h3 {
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.numbers {
+  height: 90px;
+  padding-top: 20px;
+}
+
+.button .button-primary {
+  border: none;
+  letter-spacing: 0.7px;
+  border-radius: 25px;
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  width: 100%;
+  height: 45px;
+  transition: all 0.2s;
+}
+.button .button-primary:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.numbers ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+}
+
+.number-link {
+  color: hsl(217deg, 12%, 63%);
+  text-decoration: none;
+  padding: 14px 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.number-link:focus {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+.number-link:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.rating {
+  padding: 30px 0px;
+}
+.rating span {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 8px 17px;
+  border-radius: 20px;
+  color: hsl(25deg, 97%, 53%);
+}/*# sourceMappingURL=style.css.map */
