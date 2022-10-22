@@ -1,7 +1,7 @@
 import React from "react";
 
 import img from './images/illustration-thank-you.svg';
-export default function Thankyou(){
+export default function Thankyou(props){
     return(
         <main>
         <div className="container">
@@ -10,7 +10,7 @@ export default function Thankyou(){
         <div className="row">
         <div className="thankyou-image"><img src={img} alt="Thank you"/></div>
         <div className="rating">
-            <span>You selected number out of 5</span>
+            <span>You selected {props.rate} out of 5</span>
         </div>
         <div className="text col-12 text-center pt-2">
             <h3>Thank you!</h3>

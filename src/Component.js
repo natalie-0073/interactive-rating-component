@@ -16,11 +16,11 @@ export default function Component(props){
             </div>
             <div className="numbers col-12">
                 <ul>
-                <li><Numbers number={1}/></li>
-                <li><Numbers number={2}/></li>
-                <li><Numbers number={3}/></li>
-                <li><Numbers number={4}/></li>
-                <li><Numbers number={5}/></li>
+                <li><Numbers number={1} setRate={props.setRate}/></li>
+                <li><Numbers number={2} setRate={props.setRate}/></li>
+                <li><Numbers number={3}setRate={props.setRate}/></li>
+                <li><Numbers number={4}setRate={props.setRate}/></li>
+                <li><Numbers number={5}setRate={props.setRate}/></li>
                 </ul>
                 </div>
             <div className="button col-12">
