@@ -1,10 +1,8 @@
 import React from "react";
-import { useState } from "react";
 import icon from './images/icon-star.svg';
 import Numbers from './Numbers';
-import Thankyou from "./Thankyou";
-export default function Component(){
-    const [isSubmitted, setIsSubmitted]=useState(false);
+export default function Component(props){
+    
     return(
         <main>
             <div className="container">
@@ -26,9 +24,9 @@ export default function Component(){
                 </ul>
                 </div>
             <div className="button col-12">
-                <button className="button-primary" onClick={()=>setIsSubmitted(true)}>SUBMIT</button>
+                <button className="button-primary" onClick={()=>props.setIsSubmitted(true)}>SUBMIT</button>
             </div>
-            {isSubmitted && <Thankyou setIsSubmitted={setIsSubmitted}/>}
+            
             </div>
             </div>
             

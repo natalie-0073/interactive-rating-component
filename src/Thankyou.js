@@ -1,8 +1,11 @@
 import React from "react";
-import Component from "./Component";
+
 import img from './images/illustration-thank-you.svg';
-export default function Thankyou({setIsSubmitted}){
+export default function Thankyou(){
     return(
+        <main>
+        <div className="container">
+            
        <div className="content">
         <div className="row">
         <div className="thankyou-image"><img src={img} alt="Thank you"/></div>
@@ -17,6 +20,8 @@ export default function Thankyou({setIsSubmitted}){
         
         </div>
         </div>
-       
+        </div>
+        </main>
+        
     );
 }

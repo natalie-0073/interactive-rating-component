@@ -15,7 +15,7 @@ main {
 
 .content {
   background-color: hsl(213deg, 19%, 18%);
-  max-width: 400px;
+  width: 400px;
   height: 400px;
   color: #fff;
   font-family: "Overpass", sans-serif;
@@ -63,6 +63,9 @@ main {
   color: hsl(25deg, 97%, 53%);
 }
 
+.numbers {
+  padding: 0;
+}
 .numbers ul {
   display: flex;
   flex-direction: row;
@@ -71,19 +74,20 @@ main {
   padding: 0;
 }
 
-.number-link {
+.number-button {
+  border: none;
   color: hsl(217deg, 12%, 63%);
   text-decoration: none;
-  padding: 14px 20px;
+  padding: 15px 23px;
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 50%;
   transition: all 0.2s;
 }
-.number-link:focus {
+.number-button:focus {
   background-color: hsl(217deg, 12%, 63%);
   color: hsl(0deg, 0%, 100%);
 }
-.number-link:hover {
+.number-button:hover {
   background-color: hsl(25deg, 97%, 53%);
   color: hsl(0deg, 0%, 100%);
 }

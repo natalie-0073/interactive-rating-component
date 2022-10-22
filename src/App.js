@@ -1,12 +1,11 @@
 import './App.css';
 import './style.scss';
+import Rating from './Rating';
 
-
-import Component from './Component';
 function App() {
   return (
     <div className="App">
-      <Component/>
+      <Rating/>
     </div>
   );
 }
