@@ -12,7 +12,7 @@ export default function Thankyou(){
         <div className="rating">
             <span>You selected number out of 5</span>
         </div>
-        <div className="text col-12 text-center">
+        <div className="text col-12 text-center pt-2">
             <h3>Thank you!</h3>
             <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
         </div>

@@ -25,7 +25,6 @@ main {
 }
 
 .top {
-  height: 70px;
   padding-top: 10px;
 }
 .top .star-wrapper {
@@ -35,7 +34,7 @@ main {
 }
 
 .text {
-  height: 130px;
+  padding-top: 45px;
   color: hsl(217deg, 12%, 63%);
 }
 .text h3 {
@@ -44,10 +43,12 @@ main {
 }
 
 .numbers {
-  height: 90px;
   padding-top: 20px;
 }
 
+.button {
+  padding-top: 20px;
+}
 .button .button-primary {
   border: none;
   letter-spacing: 0.7px;
@@ -63,6 +64,21 @@ main {
   color: hsl(25deg, 97%, 53%);
 }
 
+@media (max-width: 375px) {
+  .content {
+    max-width: 350px;
+    max-height: 350px;
+  }
+  .text {
+    padding-top: 20px;
+  }
+  .button {
+    padding-top: 0;
+  }
+  .button .button-primary {
+    height: 40px;
+  }
+}
 .numbers {
   padding: 0;
 }
@@ -92,6 +108,11 @@ main {
   color: hsl(0deg, 0%, 100%);
 }
 
+@media (max-width: 375px) {
+  .number-button {
+    padding: 10px 18px;
+  }
+}
 .rating {
   padding: 30px 0px;
 }

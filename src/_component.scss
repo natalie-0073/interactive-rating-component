@@ -22,7 +22,7 @@ main{
     border-radius: 30px;
 }
 .top{
-    height: 70px;
+    // height: 70px;
     padding-top: 10px;
     .star-wrapper{
         background-color: rgba(255,255,255,0.05);
@@ -31,7 +31,8 @@ main{
     }
 }
 .text{
-    height: 130px;
+    padding-top: 45px;
+    // height: 130px;
     color: $light-grey;
     h3{
         font-weight: 700;
@@ -39,11 +40,12 @@ main{
     }
 }
 .numbers{
-    height: 90px;
+    // height: 90px;
    padding-top: 20px;
     
 }
 .button{
+    padding-top: 20px;
     .button-primary{
         border: none;
         letter-spacing: 0.7px;
@@ -56,6 +58,25 @@ main{
         &:hover{
             background-color: $white;
             color: $orange;
+        }
+    }
+}
+@media(max-width:375px){
+    .content{
+        max-width: 350px;
+        max-height: 350px;
+    }
+    .numbers{
+       
+    }
+    .text{
+        
+        padding-top: 20px;
+    }
+    .button{
+        padding-top: 0;
+        .button-primary{
+            height: 40px;
         }
     }
 }
